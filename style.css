@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /* Chia ra thanh hai cot */
+    max-width: 1200px;
+    /*do rong toi da cua trang web*/
+    margin: 0 auto;
+    /* Canh giua trang web tren man hinh */
+}
+
+/* Phan tieu de trang web */
+header {
+    background-color: #c7cc19;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    grid-column: 1/ span 2;
+    /* trai qua nhieu hai cot */
+}
+/* Phần phần chân trang */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    grid-column: 1 / span 2;
+    /* trải qua cả hai cột */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Phần nội dung */
+main {
+    padding: 20px;
+    grid-column: 1;
+}
+
+/* Phần sidebar */
+aside {
+    background-color: #ddd;
+    padding: 20px;
+    grid-column: 2;
+}
+<style>
+    .bg-primary.text-white a {
+        color: #ffffff; /* Chuyển màu chữ thành màu trắng */
+    }
+</style>
+
